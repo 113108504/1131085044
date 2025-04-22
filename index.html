@@ -36,14 +36,21 @@
   ======================================================== -->
 </head>
 
-<body class="index-page">
+<body class="index-page dark-theme">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
+  <!-- Hero Section (加上背景圖) -->
+  <section id="hero" class="hero d-flex align-items-center" style="background: url('assets/img/ritual-hero.jpg') center center no-repeat; background-size: cover;">
+    <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
+      <h1>Welcome to <span>The Awakening</span></h1>
+      <h2>Enter the Sanctuary of Truth. Surrender the mind. Embrace the Light Beyond.</h2>
+      <a href="#about" class="btn-get-started scrollto">Join the Covenant</a>
+    </div>
+  </section>
+
+  <header id="header" class="header d-flex align-items-center fixed-top dark-overlay">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">The Awakening</h1><span>.</span>
       </a>
 
@@ -83,14 +90,14 @@
     </div>
   </header>
 
-  <main class="main">
 
+  <main class="main">
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq2hh_65C06iYIBgptrLHMFXBvS9O6FRNguw&s">
-
+      <!-- 更新為帶有邪教氛圍的圖片 -->
+      <img src="assets/img/ritual-hero.jpg" alt="Cult Ritual Background" class="img-fluid">
+  
       <div class="container">
         <div class="row">
           <div class="col-lg-10">
@@ -99,7 +106,7 @@
           </div>
           <div class="col-lg-5" data-aos="fade-up" data-aos-delay="300">
             <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="sign-up-form"><input type="email" name="email"><input type="submit" value="Pledge Allegiance"></div>
+              <div class="sign-up-form"><input type="email" name="email" placeholder="Enter your email"><input type="submit" value="Pledge Allegiance"></div>
               <div class="loading">Summoning...</div>
               <div class="error-message"></div>
               <div class="sent-message">Your devotion has been recorded. The Awakening draws near.</div>
@@ -107,105 +114,100 @@
           </div>
         </div>
       </div>
-
     </section><!-- /Hero Section -->
-    <!-- Clients Section -->
+  
+    <!-- Clients Section (已經替換為符合邪教風格的圖片) -->
     <section id="clients" class="clients section">
-
       <div class="container" data-aos="fade-up">
-
         <div class="row gy-4">
-
+  
+          <!-- 替換為符合邪教風格的圖片，這些可以是象徵神秘、封印、儀式等的圖像 -->
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/cult-symbol-1.png" class="img-fluid" alt="Cult Symbol 1">
           </div><!-- End Client Item -->
-
+  
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/cult-symbol-2.png" class="img-fluid" alt="Cult Symbol 2">
           </div><!-- End Client Item -->
-
+  
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/cult-symbol-3.png" class="img-fluid" alt="Cult Symbol 3">
           </div><!-- End Client Item -->
-
+  
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/cult-symbol-4.png" class="img-fluid" alt="Cult Symbol 4">
           </div><!-- End Client Item -->
-
+  
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/cult-symbol-5.png" class="img-fluid" alt="Cult Symbol 5">
           </div><!-- End Client Item -->
-
+  
           <div class="col-xl-2 col-md-3 col-6 client-logo">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/cult-symbol-6.png" class="img-fluid" alt="Cult Symbol 6">
           </div><!-- End Client Item -->
-
+  
         </div>
-
       </div>
-
     </section><!-- /Clients Section -->
-     <!-- The Doctrine Section -->
-  <section id="about" class="about section light-background">
-
-    <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <div class="row align-items-xl-center gy-5">
-
-        <div class="col-xl-5 content">
-          <h3>The Doctrine</h3>
-          <h2>The Path of the Enlightened</h2>
-          <p>We are the seekers of the Forbidden Knowledge. Bound by the Sacred Oath, we walk the path of enlightenment. Through sacrifice, through devotion, the veil is lifted, and the truth is revealed. Join us, and embrace the final revelation.</p>
-          <a href="#" class="read-more"><span>Unveil the Truth</span><i class="bi bi-arrow-right"></i></a>
-        </div>
-
-        <div class="col-xl-7">
-          <div class="row gy-4 icon-boxes">
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon-box">
-                <i class="bi bi-buildings"></i>
-                <h3>The Sacred Oath</h3>
-                <p>To enter the Circle, one must swear loyalty to the Eternal Covenant. Once bound, the path is set, and there is no return.</p>
-              </div>
-            </div> <!-- End Icon Box -->
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon-box">
-                <i class="bi bi-clipboard-pulse"></i>
-                <h3>The Ritual of Awakening</h3>
-                <p>Through sacred rites, the mind is freed. The body may tremble, but the soul will ascend beyond the mortal veil.</p>
-              </div>
-            </div> <!-- End Icon Box -->
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon-box">
-                <i class="bi bi-command"></i>
-                <h3>Keeper of Secrets</h3>
-                <p>Only the chosen may guard the Forbidden Knowledge. What is seen cannot be unseen, and what is known must never be spoken.</p>
-              </div>
-            </div> <!-- End Icon Box -->
-
-            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
-              <div class="icon-box">
-                <i class="bi bi-graph-up-arrow"></i>
-                <h3>The Final Revelation</h3>
-                <p>In the end, all who follow the path shall witness the truth. The old world will fade, and the new order will rise.</p>
-              </div>
-            </div> <!-- End Icon Box -->
-
+  
+    <!-- The Doctrine Section -->
+    <section id="about" class="about section light-background">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+          <div class="col-xl-5 content">
+            <h3>The Doctrine</h3>
+            <h2>The Path of the Enlightened</h2>
+            <p>We are the seekers of the Forbidden Knowledge. Bound by the Sacred Oath, we walk the path of enlightenment. Through sacrifice, through devotion, the veil is lifted, and the truth is revealed. Join us, and embrace the final revelation.</p>
+            <a href="#" class="read-more"><span>Unveil the Truth</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+  
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+  
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <i class="bi bi-shield-lock"></i> <!-- 使用象徵封印或保護的圖標 -->
+                  <h3>The Sacred Oath</h3>
+                  <p>To enter the Circle, one must swear loyalty to the Eternal Covenant. Once bound, the path is set, and there is no return.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+  
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-flame"></i> <!-- 使用象徵火焰或儀式的圖標 -->
+                  <h3>The Ritual of Awakening</h3>
+                  <p>Through sacred rites, the mind is freed. The body may tremble, but the soul will ascend beyond the mortal veil.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+  
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-eye"></i> <!-- 使用象徵眼睛或洞察的圖標 -->
+                  <h3>Keeper of Secrets</h3>
+                  <p>Only the chosen may guard the Forbidden Knowledge. What is seen cannot be unseen, and what is known must never be spoken.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+  
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-star"></i> <!-- 使用象徵星星或神秘力量的圖標 -->
+                  <h3>The Final Revelation</h3>
+                  <p>In the end, all who follow the path shall witness the truth. The old world will fade, and the new order will rise.</p>
+                </div>
+              </div> <!-- End Icon Box -->
+  
+            </div>
           </div>
         </div>
-
       </div>
-    </div>
-
-  </section><!-- /The Doctrine Section -->
-
-
-    <!-- The Ascension Metrics -->
+    </section><!-- /The Doctrine Section -->
+  </main>
+  
+<!-- The Ascension Metrics -->
 <section id="stats" class="stats section dark-background">
 
-  <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+  <!-- 更新為帶有邪教氛圍的背景圖片 -->
+  <img src="assets/img/ascension-bg.jpg" alt="Ascension Background" data-aos="fade-in">
 
   <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
 
@@ -246,7 +248,7 @@
 </section><!-- /The Ascension Metrics -->
 
 
-    <!-- Sacred Services -->
+<!-- Sacred Services -->
 <section id="services" class="services section">
 
   <!-- Section Title -->
@@ -259,7 +261,7 @@
 
     <div class="row gy-4">
 
-      <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         <div class="service-item d-flex">
           <div class="icon flex-shrink-0"><i class="bi bi-fire"></i></div>
           <div>
@@ -269,7 +271,7 @@
         </div>
       </div><!-- End Service Item -->
 
-      <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="200">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
         <div class="service-item d-flex">
           <div class="icon flex-shrink-0"><i class="bi bi-droplet"></i></div>
           <div>
@@ -279,7 +281,7 @@
         </div>
       </div><!-- End Service Item -->
 
-      <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
         <div class="service-item d-flex">
           <div class="icon flex-shrink-0"><i class="bi bi-eye"></i></div>
           <div>
@@ -289,32 +291,12 @@
         </div>
       </div><!-- End Service Item -->
 
-      <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
         <div class="service-item d-flex">
           <div class="icon flex-shrink-0"><i class="bi bi-mic"></i></div>
           <div>
             <h4 class="title"><a href="services-details.html" class="stretched-link">Chanting Rituals</a></h4>
             <p class="description">Sacred hymns, sung in the tongue of the ancients, resonate through the void.</p>
-          </div>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="500">
-        <div class="service-item d-flex">
-          <div class="icon flex-shrink-0"><i class="bi bi-lightning"></i></div>
-          <div>
-            <h4 class="title"><a href="services-details.html" class="stretched-link">The Ascension Trials</a></h4>
-            <p class="description">Only the worthy may transcend. Each trial tests the will, mind, and spirit.</p>
-          </div>
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
-        <div class="service-item d-flex">
-          <div class="icon flex-shrink-0"><i class="bi bi-stars"></i></div>
-          <div>
-            <h4 class="title"><a href="services-details.html" class="stretched-link">The Final Revelation</a></h4>
-            <p class="description">To walk beyond the veil, one must embrace the ultimate truth.</p>
           </div>
         </div>
       </div><!-- End Service Item -->
@@ -325,13 +307,40 @@
 
 </section><!-- /Sacred Services -->
 
- <!-- Core Beliefs Section -->
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+  <div class="service-item d-flex">
+    <div class="icon flex-shrink-0"><i class="bi bi-lightning"></i></div>
+    <div>
+      <h4 class="title"><a href="services-details.html" class="stretched-link">The Ascension Trials</a></h4>
+      <p class="description">Only the worthy may transcend. Each trial tests the will, mind, and spirit.</p>
+    </div>
+  </div>
+</div><!-- End Service Item -->
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+  <div class="service-item d-flex">
+    <div class="icon flex-shrink-0"><i class="bi bi-stars"></i></div>
+    <div>
+      <h4 class="title"><a href="services-details.html" class="stretched-link">The Final Revelation</a></h4>
+      <p class="description">To walk beyond the veil, one must embrace the ultimate truth that transcends all known realms.</p>
+    </div>
+  </div>
+</div><!-- End Service Item -->
+
+</div>
+
+</div>
+
+</section><!-- /Sacred Services -->
+
+<!-- Core Beliefs Section -->
 <section id="features" class="features section">
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2>The Sacred Pillars</h2>
-    <p>Through devotion, discipline, and enlightenment, we ascend beyond the mortal plane.</p>
+    <p>Through devotion, discipline, and enlightenment, we ascend beyond the mortal plane, embracing the eternal.</p>
   </div><!-- End Section Title -->
 
   <div class="container">
@@ -340,32 +349,31 @@
       <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
         <h3>The Path of Illumination</h3>
         <p>
-          Those who walk the path must cast aside worldly illusions. Through trials and devotion, the enlightened shall
-          ascend into the embrace of the eternal.
+          Those who walk this sacred path must cast aside worldly illusions. Only through trials and unwavering devotion shall the enlightened ascend into the embrace of the eternal.
         </p>
-        <a href="#" class="btn btn-get-started">Begin Your Journey</a>
+        <a href="#" class="btn btn-get-started">Begin Your Journey into the Unknown</a>
       </div>
       <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
         <div class="image-stack">
-          <img src="assets/img/dark-ritual-1.jpg" alt="" class="stack-front">
+          <img src="assets/img/occult-ritual.jpg" alt="" class="stack-front"> <!-- Replace with a more occult-like image -->
           <img src="assets/img/dark-ritual-2.jpg" alt="" class="stack-back">
         </div>
       </div>
     </div><!-- Features Item -->
 
-    <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+    <div class="row gy-4 align-items-stretch justify-content-between features-item">
       <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-        <img src="assets/img/forbidden-text.jpg" class="img-fluid" alt="">
+        <img src="assets/img/forbidden-text.jpg" class="img-fluid" alt=""> <!-- This image is good for an occult feel -->
       </div>
       <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
         <h3>Sacred Texts & Forbidden Knowledge</h3>
-        <p>Locked away for millennia, the texts of the ancients hold wisdom beyond comprehension. Only the chosen may gaze upon their truths.</p>
+        <p>Locked away for millennia, the texts of the ancients hold forbidden wisdom beyond mortal comprehension. Only the chosen may gaze upon their hidden truths.</p>
         <ul>
-          <li><i class="bi bi-check"></i> <span>The Codex Umbrae reveals the hidden paths of the cosmos.</span></li>
-          <li><i class="bi bi-check"></i><span>The Ritual of the Veil allows communion with unseen forces.</span></li>
-          <li><i class="bi bi-check"></i> <span>Through sacrifice, enlightenment is attained.</span></li>
+          <li><i class="bi bi-check"></i> <span>The Codex Umbrae unveils the hidden paths of the cosmos, known only to the enlightened.</span></li>
+          <li><i class="bi bi-check"></i><span>The Ritual of the Veil allows communion with the unseen forces that shape the universe.</span></li>
+          <li><i class="bi bi-check"></i> <span>Through sacrifice and devotion, the ultimate enlightenment is attained.</span></li>
         </ul>
-        <a href="#" class="btn btn-get-started align-self-start">Learn the Truth</a>
+        <a href="#" class="btn btn-get-started align-self-start">Learn the Forbidden Truth</a>
       </div>
     </div><!-- Features Item -->
 
@@ -374,14 +382,50 @@
 </section><!-- /Core Beliefs Section -->
 
 
-    <!-- Sacred Artifacts Section -->
+<!-- Sacred Artifacts Section -->
 <section id="portfolio" class="portfolio section">
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
     <h2>Artifacts of the Sacred Path</h2>
-    <p>Discover the symbols and relics that guide the faithful towards enlightenment and transcendence.</p>
+    <p>Discover the sacred relics and symbols that guide the faithful towards enlightenment and transcendence into the divine.</p>
   </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-4">
+        <div class="portfolio-item">
+          <img src="assets/img/occult-symbol.jpg" class="img-fluid" alt=""> <!-- Occult symbol -->
+          <div class="portfolio-info">
+            <h4>Occult Relic</h4>
+            <p>A symbol of the hidden truths we seek to unlock.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="portfolio-item">
+          <img src="assets/img/ritual-candle.jpg" class="img-fluid" alt=""> <!-- Ritual candle for ambiance -->
+          <div class="portfolio-info">
+            <h4>Ritual Candle</h4>
+            <p>This sacred flame illuminates the path to enlightenment.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="portfolio-item">
+          <img src="assets/img/blood-ceremony.jpg" class="img-fluid" alt=""> <!-- Blood ceremony image for ritualistic vibe -->
+          <div class="portfolio-info">
+            <h4>Blood Ceremony</h4>
+            <p>A ritual of binding the soul to the eternal forces.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section><!-- /Sacred Artifacts Section -->
+
+
 
   <div class="container">
 
